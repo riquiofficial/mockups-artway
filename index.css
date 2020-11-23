@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #e3e2e2;
+  background: #131315;
+}
+
+.main {
+  height: 100vh;
+  background-image: url(./image/pexels-pixabay-40186.webp);
+  background-size: cover;
+  background-position: 200px 30%;
+  background-repeat: no-repeat;
+
+  z-index: -1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 80px;
+}
+
+.main__heading--1 {
+  font-family: "Lacquer", cursive;
+  font-weight: 400;
+  font-size: 144px;
+}
+
+.main__heading--2 {
+  font-weight: medium;
+  font-size: 60px;
+  width: 40%;
+}
+.main__heading--2 span {
+  color: #b84fc1;
+}
+
+.main__paragraph {
+  font-weight: 100;
+  font-size: 36px;
+  width: 30%;
+}
+
+.main__buttons--signup {
+  background-color: #b84fc1;
+  text-decoration: none;
+  color: #e3e2e2;
+  display: inline-block;
+  width: 190px;
+  height: 54px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e3e2e2;
+  text-decoration: none;
+  width: 190px;
+  height: 54px;
+  border-radius: 6px;
+  box-shadow: 2px 4px 5px #000000;
+  transition: all 0.2s ease;
+}
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 2px 5px 6px #000000;
+}
+
+.btn:active {
+  transform: translateY(1px);
+  box-shadow: 1px 1px 2px #000000;
+}
+.main__buttons--learnmore {
+  background-color: #f78068;
+  width: 203px;
+  margin-left: 31px;
+}
+.main__buttons--text {
+  text-decoration: none;
+  font-size: 30px;
+  color: #e3e2e2;
+}
+
+.main__buttons {
+  display: flex;
+  justify-content: start;
+}
